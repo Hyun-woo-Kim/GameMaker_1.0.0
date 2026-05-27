@@ -1,0 +1,409 @@
+[gd_scene load_steps=2 format=3 uid="uid://daily_life"]
+
+[ext_resource type="Script" path="res://scripts/scenes/daily_life.gd" id="1_dl"]
+
+[node name="DailyLife" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_dl")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.06, 0.06, 0.12, 1)
+
+; ── 상단 HUD ────────────────────────────────────────────────────────────────
+[node name="HUD" type="PanelContainer" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+offset_bottom = 100.0
+
+[node name="HBoxHUD" type="HBoxContainer" parent="HUD"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="LblDay" type="Label" parent="HUD/HBoxHUD"]
+layout_mode = 2
+text = "Day 1"
+theme_override_font_sizes/font_size = 22
+
+[node name="LblTier" type="Label" parent="HUD/HBoxHUD"]
+layout_mode = 2
+text = "길거리 파이터"
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+
+[node name="Spacer" type="Control" parent="HUD/HBoxHUD"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LblGold" type="Label" parent="HUD/HBoxHUD"]
+layout_mode = 2
+text = "💰 300"
+theme_override_font_sizes/font_size = 22
+
+[node name="LblTime" type="Label" parent="HUD/HBoxHUD"]
+layout_mode = 2
+text = "⏰ 18.0h"
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1.0, 0.9, 0.5, 1)
+
+[node name="LblCurHP" type="Label" parent="HUD/HBoxHUD"]
+layout_mode = 2
+text = "❤️ 100/100"
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1.0, 0.45, 0.45, 1)
+
+[node name="LblCurSTA" type="Label" parent="HUD/HBoxHUD"]
+layout_mode = 2
+text = "⚡ 100/100"
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.4, 0.9, 1.0, 1)
+
+; ── 스탯 패널 (좌측) ─────────────────────────────────────────────────────────
+[node name="StatPanel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchor_bottom = 1.0
+offset_top = 110.0
+offset_right = 240.0
+offset_bottom = -10.0
+
+[node name="StatVBox" type="VBoxContainer" parent="StatPanel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LblStatTitle" type="Label" parent="StatPanel/StatVBox"]
+layout_mode = 2
+text = "스탯"
+theme_override_font_sizes/font_size = 20
+
+[node name="BarSTR" type="VBoxContainer" parent="StatPanel/StatVBox"]
+layout_mode = 2
+
+[node name="LblSTR" type="Label" parent="StatPanel/StatVBox/BarSTR"]
+layout_mode = 2
+text = "힘 (STR)  10"
+theme_override_font_sizes/font_size = 15
+
+[node name="PBstr" type="ProgressBar" parent="StatPanel/StatVBox/BarSTR"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 14)
+max_value = 100.0
+value = 10.0
+
+[node name="BarAGI" type="VBoxContainer" parent="StatPanel/StatVBox"]
+layout_mode = 2
+
+[node name="LblAGI" type="Label" parent="StatPanel/StatVBox/BarAGI"]
+layout_mode = 2
+text = "민첩 (AGI)  10"
+theme_override_font_sizes/font_size = 15
+
+[node name="PBagi" type="ProgressBar" parent="StatPanel/StatVBox/BarAGI"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 14)
+max_value = 100.0
+value = 10.0
+
+[node name="BarSTA" type="VBoxContainer" parent="StatPanel/StatVBox"]
+layout_mode = 2
+
+[node name="LblSTA" type="Label" parent="StatPanel/StatVBox/BarSTA"]
+layout_mode = 2
+text = "스태미나 (STA)  10"
+theme_override_font_sizes/font_size = 15
+
+[node name="PBsta" type="ProgressBar" parent="StatPanel/StatVBox/BarSTA"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 14)
+max_value = 100.0
+value = 10.0
+
+[node name="BarTEC" type="VBoxContainer" parent="StatPanel/StatVBox"]
+layout_mode = 2
+
+[node name="LblTEC" type="Label" parent="StatPanel/StatVBox/BarTEC"]
+layout_mode = 2
+text = "기술 (TEC)  10"
+theme_override_font_sizes/font_size = 15
+
+[node name="PBtec" type="ProgressBar" parent="StatPanel/StatVBox/BarTEC"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 14)
+max_value = 100.0
+value = 10.0
+
+[node name="BarHP" type="VBoxContainer" parent="StatPanel/StatVBox"]
+layout_mode = 2
+
+[node name="LblHP" type="Label" parent="StatPanel/StatVBox/BarHP"]
+layout_mode = 2
+text = "체력 (HP)  100"
+theme_override_font_sizes/font_size = 15
+
+[node name="PBhp" type="ProgressBar" parent="StatPanel/StatVBox/BarHP"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 14)
+max_value = 400.0
+value = 100.0
+theme_override_styles/fill = null
+
+; ── 위치 & 행동 패널 (중앙) ──────────────────────────────────────────────────
+[node name="ActionPanel" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 110.0
+offset_left = 250.0
+offset_right = -260.0
+offset_bottom = -10.0
+theme_override_constants/separation = 12
+
+[node name="LocationLabel" type="Label" parent="ActionPanel"]
+layout_mode = 2
+text = "📍 현재 위치: 집"
+theme_override_font_sizes/font_size = 20
+
+[node name="LocationButtons" type="HBoxContainer" parent="ActionPanel"]
+layout_mode = 2
+
+[node name="BtnGoHome" type="Button" parent="ActionPanel/LocationButtons"]
+layout_mode = 2
+custom_minimum_size = Vector2(140, 50)
+text = "🏠 집"
+theme_override_font_sizes/font_size = 18
+
+[node name="BtnGoGym" type="Button" parent="ActionPanel/LocationButtons"]
+layout_mode = 2
+custom_minimum_size = Vector2(140, 50)
+text = "🏋️ 체육관"
+theme_override_font_sizes/font_size = 18
+
+[node name="Separator" type="HSeparator" parent="ActionPanel"]
+layout_mode = 2
+
+[node name="ActionLabel" type="Label" parent="ActionPanel"]
+layout_mode = 2
+text = "행동 선택"
+theme_override_font_sizes/font_size = 18
+
+[node name="ActionGrid" type="GridContainer" parent="ActionPanel"]
+layout_mode = 2
+columns = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+
+; ── 체육관 3대 운동 + 런닝머신 (체육관 / 홈 장비 필요)
+[node name="BtnBench" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "🏋️ 벤치프레스\nSTR ↑  |  2h  STA -25"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnSquat" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "🦵 스쿼트\nHP ↑  |  2h  STA -25"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnDeadlift" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "⬆️ 데드리프트\nSTA ↑  |  2h  STA -25"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnTreadmill" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "🏃 런닝머신\nAGI ↑  |  1h  STA -15"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnSpar" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "🥊 스파링\nTEC ↑  SP+1  |  3h  STA -35"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnDiet" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "🍱 식사\n체력 +30  |  0.5h  (50골드)"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnEnergyDrink" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "⚡ 에너지 드링크\nSTA+30  HP+10  즉시  (50골드)"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnPartTime" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "💼 아르바이트\n골드 +50~100  |  4h  STA -10"
+theme_override_font_sizes/font_size = 15
+
+[node name="BtnRest" type="Button" parent="ActionPanel/ActionGrid"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 65)
+text = "🛋️ 휴식\nSTA +25  |  1h"
+theme_override_font_sizes/font_size = 15
+
+[node name="Separator2" type="HSeparator" parent="ActionPanel"]
+layout_mode = 2
+
+[node name="BtnEndDay" type="Button" parent="ActionPanel"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 60)
+text = "🌙 잠자기  (하루 종료)"
+theme_override_font_sizes/font_size = 22
+
+; ── 우측 패널: 슬롯 + 스킬포인트 ─────────────────────────────────────────────
+[node name="RightPanel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 110.0
+offset_left = -250.0
+offset_bottom = -10.0
+
+[node name="RightVBox" type="VBoxContainer" parent="RightPanel"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LblSlots" type="Label" parent="RightPanel/RightVBox"]
+layout_mode = 2
+text = "오늘의 행동"
+theme_override_font_sizes/font_size = 18
+
+[node name="SlotList" type="VBoxContainer" parent="RightPanel/RightVBox"]
+layout_mode = 2
+
+[node name="Slot1" type="Label" parent="RightPanel/RightVBox/SlotList"]
+layout_mode = 2
+text = "[ 슬롯 1 ] —"
+theme_override_font_sizes/font_size = 15
+
+[node name="Slot2" type="Label" parent="RightPanel/RightVBox/SlotList"]
+layout_mode = 2
+text = "[ 슬롯 2 ] —"
+theme_override_font_sizes/font_size = 15
+
+[node name="Slot3" type="Label" parent="RightPanel/RightVBox/SlotList"]
+layout_mode = 2
+text = "[ 슬롯 3 ] —"
+theme_override_font_sizes/font_size = 15
+
+[node name="HSep" type="HSeparator" parent="RightPanel/RightVBox"]
+layout_mode = 2
+
+[node name="LblSP" type="Label" parent="RightPanel/RightVBox"]
+layout_mode = 2
+text = "스킬 포인트: 0"
+theme_override_font_sizes/font_size = 16
+
+[node name="BtnSkillTree" type="Button" parent="RightPanel/RightVBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 50)
+text = "🌟 스킬 트리"
+theme_override_font_sizes/font_size = 16
+
+[node name="BtnShop" type="Button" parent="RightPanel/RightVBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 50)
+text = "🛒 상점"
+theme_override_font_sizes/font_size = 16
+
+[node name="HSep2" type="HSeparator" parent="RightPanel/RightVBox"]
+layout_mode = 2
+
+[node name="BtnMatch" type="Button" parent="RightPanel/RightVBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 60)
+text = "🥊 경기 신청"
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(1, 0.85, 0.2, 1)
+
+; ── 경기 선택 오버레이 ────────────────────────────────────────────────────────
+[node name="MatchPicker" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.78)
+visible = false
+mouse_filter = 0
+
+[node name="PickerPanel" type="PanelContainer" parent="MatchPicker"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -240.0
+offset_right = 260.0
+offset_bottom = 240.0
+
+[node name="VBox" type="VBoxContainer" parent="MatchPicker/PickerPanel"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="MatchPicker/PickerPanel/VBox"]
+layout_mode = 2
+text = "경기 종류 선택"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 24
+
+[node name="InfoLabel" type="Label" parent="MatchPicker/PickerPanel/VBox"]
+layout_mode = 2
+text = ""
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.7, 0.9, 1, 1)
+
+[node name="BtnNormal" type="Button" parent="MatchPicker/PickerPanel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 55)
+text = "⚔️  일반전 (랜덤 상대)"
+theme_override_font_sizes/font_size = 18
+
+[node name="BtnRival" type="Button" parent="MatchPicker/PickerPanel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 55)
+text = "🔥  라이벌전"
+theme_override_font_sizes/font_size = 18
+
+[node name="BtnBoss" type="Button" parent="MatchPicker/PickerPanel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 55)
+text = "🏆  보스전"
+theme_override_font_sizes/font_size = 18
+
+[node name="BtnCancel" type="Button" parent="MatchPicker/PickerPanel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 45)
+text = "취소"
+theme_override_font_sizes/font_size = 16
+
+; ── 피드백 팝업 ──────────────────────────────────────────────────────────────
+[node name="FeedbackLabel" type="Label" parent="."]
+layout_mode = 1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -300.0
+offset_top = -60.0
+offset_right = 300.0
+offset_bottom = -20.0
+text = ""
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(1, 0.9, 0.2, 1)
+modulate = Color(1, 1, 1, 0)

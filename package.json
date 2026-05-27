@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "docx": "^9.7.0",
+    "exceljs": "^4.4.0"
+  }
+}

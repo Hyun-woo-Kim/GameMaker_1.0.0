@@ -1,0 +1,29 @@
+{
+  "gym_membership": { "cost": 300, "duration_days": 7 },
+  "diet_item":      { "cost": 50,  "hp_gain": 10, "vit_gain": 5 },
+
+  "home_equipment": {
+    "dumbbell_set":  { "cost": 800,  "unlocks": ["home_weight_training"] },
+    "treadmill":     { "cost": 1200, "unlocks": ["home_running"] },
+    "sandbag":       { "cost": 600,  "unlocks": ["home_bag_work"] },
+    "full_home_gym": { "cost": 3500, "unlocks": ["home_weight_training","home_running"], "removes_travel": true }
+  },
+
+  "parttime_job": { "gold_min": 50, "gold_max": 100 },
+
+  "sparring_invite": {
+    "tier1": 100,
+    "tier2": 200,
+    "tier3": 400,
+    "tier4": 700
+  },
+
+  "match_rewards": {
+    "tier1": { "normal_win": 100, "rival_win": 200, "boss_win": 300 },
+    "tier2": { "normal_win": 300, "rival_win": 600, "boss_win": 1000 },
+    "tier3": { "normal_win": 800, "rival_win": 1500, "boss_win": 2500 },
+    "tier4": { "normal_win": 1500, "rival_win": 0,  "boss_win": 5000 }
+  },
+
+  "sponsor_bonus": { "tier2_entry": 500 }
+}

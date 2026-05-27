@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3 uid="uid://main_menu"]
+
+[ext_resource type="Script" path="res://scripts/scenes/main_menu.gd" id="1_menu"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_menu")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.05, 0.05, 0.1, 1)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -180.0
+offset_right = 200.0
+offset_bottom = 180.0
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="VBox"]
+layout_mode = 2
+text = "ROAD TO GLORY"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 52
+
+[node name="SubtitleLabel" type="Label" parent="VBox"]
+layout_mode = 2
+text = "MMA 챔피언이 되어라"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+
+[node name="Spacer" type="Control" parent="VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 60)
+
+[node name="BtnStart" type="Button" parent="VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(400, 70)
+text = "게임 시작"
+theme_override_font_sizes/font_size = 24
+
+[node name="BtnContinue" type="Button" parent="VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(400, 70)
+text = "이어하기"
+theme_override_font_sizes/font_size = 24
+
+[node name="BtnQuit" type="Button" parent="VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(400, 70)
+text = "종료"
+theme_override_font_sizes/font_size = 24

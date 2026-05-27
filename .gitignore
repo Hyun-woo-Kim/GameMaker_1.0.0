@@ -1,0 +1,20 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Godot
+.godot/
+*.import
+*.tmp
+export_presets.cfg
+
+# Claude Code 로컬 설정
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs 임시파일
+~$*.docx
+~$*.xlsx

@@ -1,0 +1,26 @@
+{
+  "tier1_grunt_1":   { "name": "길거리 싸움꾼 김태양",   "tier": 1, "class": "boxer",     "STR":18, "AGI":15, "STA":18, "TEC":12, "HP":130, "is_rival": false },
+  "tier1_grunt_2":   { "name": "골목대장 이강현",         "tier": 1, "class": "wrestler",  "STR":22, "AGI":10, "STA":20, "TEC": 8, "HP":150, "is_rival": false },
+  "tier1_grunt_3":   { "name": "도장 중퇴자 박민수",      "tier": 1, "class": "jiu_jitsu", "STR":14, "AGI":14, "STA":16, "TEC":18, "HP":120, "is_rival": false },
+  "tier1_rival":     { "name": "라이벌 (티어1)",           "tier": 1, "class": "RIVAL",     "STR":28, "AGI":25, "STA":30, "TEC":20, "HP":160, "is_rival": true  },
+  "tier1_boss":      { "name": "구역 챔피언 최두환",      "tier": 1, "class": "boxer",     "STR":30, "AGI":22, "STA":32, "TEC":20, "HP":170, "is_rival": false },
+
+  "tier2_grunt_1":   { "name": "KFC 루키 강민호",         "tier": 2, "class": "boxer",     "STR":38, "AGI":35, "STA":38, "TEC":30, "HP":210, "is_rival": false },
+  "tier2_grunt_2":   { "name": "KFC 정규 박지성",         "tier": 2, "class": "jiu_jitsu", "STR":28, "AGI":30, "STA":38, "TEC":42, "HP":190, "is_rival": false },
+  "tier2_grunt_3":   { "name": "KFC 강자 윤성빈",         "tier": 2, "class": "wrestler",  "STR":44, "AGI":28, "STA":42, "TEC":25, "HP":230, "is_rival": false },
+  "tier2_grunt_4":   { "name": "KFC 베테랑 조현우",       "tier": 2, "class": "boxer",     "STR":40, "AGI":38, "STA":36, "TEC":33, "HP":205, "is_rival": false },
+  "tier2_rival":     { "name": "라이벌 (티어2)",           "tier": 2, "class": "RIVAL",     "STR":50, "AGI":46, "STA":54, "TEC":42, "HP":240, "is_rival": true  },
+  "tier2_boss":      { "name": "KFC 챔피언 임재원",       "tier": 2, "class": "boxer",     "STR":52, "AGI":46, "STA":52, "TEC":40, "HP":250, "is_rival": false },
+
+  "tier3_grunt_1":   { "name": "UFC 신인 류승완",         "tier": 3, "class": "boxer",     "STR":58, "AGI":55, "STA":58, "TEC":50, "HP":310, "is_rival": false },
+  "tier3_grunt_2":   { "name": "UFC 랭커 한상혁",         "tier": 3, "class": "wrestler",  "STR":65, "AGI":48, "STA":62, "TEC":44, "HP":330, "is_rival": false },
+  "tier3_grunt_3":   { "name": "UFC 기술자 오민준",       "tier": 3, "class": "jiu_jitsu", "STR":48, "AGI":52, "STA":60, "TEC":62, "HP":290, "is_rival": false },
+  "tier3_grunt_4":   { "name": "UFC 스트라이커 배재현",   "tier": 3, "class": "boxer",     "STR":62, "AGI":58, "STA":55, "TEC":52, "HP":305, "is_rival": false },
+  "tier3_grunt_5":   { "name": "UFC 그라운드 송민기",     "tier": 3, "class": "jiu_jitsu", "STR":50, "AGI":50, "STA":62, "TEC":65, "HP":295, "is_rival": false },
+  "tier3_rival":     { "name": "라이벌 (티어3)",           "tier": 3, "class": "RIVAL",     "STR":70, "AGI":66, "STA":74, "TEC":62, "HP":340, "is_rival": true  },
+  "tier3_boss":      { "name": "UFC 도전자 결정전",        "tier": 3, "class": "wrestler",  "STR":72, "AGI":62, "STA":72, "TEC":58, "HP":350, "is_rival": false },
+
+  "tier4_defense_1": { "name": "1차 방어전 상대 문성준",  "tier": 4, "class": "boxer",     "STR":78, "AGI":74, "STA":80, "TEC":70, "HP":390, "is_rival": false },
+  "tier4_defense_2": { "name": "2차 방어전 상대 나정호",  "tier": 4, "class": "jiu_jitsu", "STR":68, "AGI":72, "STA":82, "TEC":80, "HP":380, "is_rival": false },
+  "tier4_rival_final":{ "name": "라이벌 — 최종 결전",     "tier": 4, "class": "RIVAL",     "STR":88, "AGI":84, "STA":92, "TEC":80, "HP":420, "is_rival": true, "is_final_boss": true }
+}

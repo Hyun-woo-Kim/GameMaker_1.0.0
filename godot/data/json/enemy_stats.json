@@ -1,0 +1,14 @@
+{
+  "tier1_grunt_1": { "name": "길거리 싸움꾼 A", "tier": 1, "class": "boxer",     "STR":18, "AGI":15, "STA":18, "TEC":12, "HP":120 },
+  "tier1_grunt_2": { "name": "길거리 싸움꾼 B", "tier": 1, "class": "wrestler",  "STR":22, "AGI":10, "STA":20, "TEC":8,  "HP":140 },
+  "tier1_grunt_3": { "name": "길거리 싸움꾼 C", "tier": 1, "class": "jiu_jitsu", "STR":14, "AGI":14, "STA":16, "TEC":18, "HP":110 },
+  "tier1_rival":   { "name": "라이벌 (티어1)",  "tier": 1, "class": "RIVAL",     "STR":28, "AGI":25, "STA":30, "TEC":20, "HP":150, "is_rival": true },
+  "tier1_boss":    { "name": "구역 보스",        "tier": 1, "class": "wrestler",  "STR":30, "AGI":20, "STA":32, "TEC":18, "HP":160 },
+
+  "tier2_grunt_1": { "name": "KFC 파이터 A",    "tier": 2, "class": "boxer",     "STR":38, "AGI":35, "STA":38, "TEC":30, "HP":200 },
+  "tier2_grunt_2": { "name": "KFC 파이터 B",    "tier": 2, "class": "jiu_jitsu","STR":28, "AGI":30, "STA":38, "TEC":40, "HP":180 },
+  "tier2_grunt_3": { "name": "KFC 파이터 C",    "tier": 2, "class": "wrestler",  "STR":44, "AGI":28, "STA":40, "TEC":25, "HP":220 },
+  "tier2_grunt_4": { "name": "KFC 파이터 D",    "tier": 2, "class": "boxer",     "STR":40, "AGI":38, "STA":35, "TEC":32, "HP":195 },
+  "tier2_rival":   { "name": "라이벌 (티어2)",  "tier": 2, "class": "RIVAL",     "STR":48, "AGI":45, "STA":52, "TEC":40, "HP":230, "is_rival": true },
+  "tier2_boss":    { "name": "KFC 챔피언",       "tier": 2, "class": "boxer",     "STR":50, "AGI":45, "STA":50, "TEC":38, "HP":240 }
+}

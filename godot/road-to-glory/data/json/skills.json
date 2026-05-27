@@ -1,0 +1,35 @@
+{
+  "boxer": {
+    "jab_master":    { "id": "jab_master",    "name": "잽 마스터",   "col": 0, "row": 0, "requires": [],               "effect": { "AGI": 3, "atk_bonus": 0.05 } },
+    "one_two_combo": { "id": "one_two_combo",  "name": "원투 콤보",   "col": 1, "row": 0, "requires": ["jab_master"],   "effect": { "combo_mult": 0.15 } },
+    "sway_back":     { "id": "sway_back",      "name": "스웨이 백",   "col": 2, "row": 0, "requires": ["one_two_combo"],"effect": { "dodge_bonus": 0.05 } },
+    "footwork":      { "id": "footwork",       "name": "풋워크",      "col": 0, "row": 1, "requires": ["jab_master"],   "effect": { "AGI": 5 } },
+    "hook_power":    { "id": "hook_power",     "name": "훅 파워업",   "col": 1, "row": 1, "requires": ["footwork"],     "effect": { "STR": 4, "atk_bonus": 0.08 } },
+    "ducking":       { "id": "ducking",        "name": "더킹",        "col": 2, "row": 1, "requires": ["sway_back"],    "effect": { "dodge_bonus": 0.07 } },
+    "body_shot":     { "id": "body_shot",      "name": "바디샷",      "col": 0, "row": 2, "requires": ["footwork"],     "effect": { "STA_drain": 5 } },
+    "uppercut":      { "id": "uppercut",       "name": "어퍼컷",      "col": 1, "row": 2, "requires": ["hook_power"],   "effect": { "crit_mult": 1.8 } },
+    "ko_finisher":   { "id": "ko_finisher",    "name": "KO 피니셔",   "col": 2, "row": 2, "requires": ["ducking","uppercut"], "effect": { "ko_chance": 0.10 } }
+  },
+  "wrestler": {
+    "single_leg":    { "id": "single_leg",     "name": "싱글렉 테이크다운","col":0,"row":0,"requires":[],"effect":{"takedown_chance":0.15} },
+    "double_leg":    { "id": "double_leg",     "name": "더블렉 테이크다운","col":1,"row":0,"requires":["single_leg"],"effect":{"takedown_chance":0.10,"STR":3} },
+    "slam":          { "id": "slam",           "name": "슬램",        "col": 2, "row": 0, "requires": ["double_leg"],   "effect": { "atk_bonus": 0.20 } },
+    "clinch_ground": { "id": "clinch_ground",  "name": "클린치 그라운드","col":0,"row":1,"requires":["single_leg"],"effect":{"HP":15} },
+    "mount_pos":     { "id": "mount_pos",      "name": "마운트 포지션","col":1,"row":1,"requires":["clinch_ground"],"effect":{"atk_bonus":0.12} },
+    "gnp":           { "id": "gnp",            "name": "그라운드 앤 파운드","col":2,"row":1,"requires":["mount_pos","slam"],"effect":{"atk_bonus":0.25} },
+    "iron_defense":  { "id": "iron_defense",   "name": "철벽 방어",   "col": 0, "row": 2, "requires": ["clinch_ground"],"effect":{"damage_reduce":0.10} },
+    "sta_boost":     { "id": "sta_boost",      "name": "스태미나 강화","col":1,"row":2,"requires":["iron_defense"],  "effect":{"STA":8} },
+    "iron_body":     { "id": "iron_body",      "name": "아이언 바디",  "col":2,"row":2,"requires":["sta_boost","gnp"],"effect":{"HP":30,"damage_reduce":0.15} }
+  },
+  "jiu_jitsu": {
+    "guard_pos":     { "id": "guard_pos",      "name": "가드 포지션",  "col":0,"row":0,"requires":[],"effect":{"sub_gauge_rate":0.05} },
+    "armbar":        { "id": "armbar",         "name": "암바",        "col":1,"row":0,"requires":["guard_pos"],"effect":{"sub_gauge_rate":0.08,"TEC":3} },
+    "triangle":      { "id": "triangle",       "name": "트라이앵글 초크","col":2,"row":0,"requires":["armbar"],"effect":{"sub_finish_chance":0.08} },
+    "sweep":         { "id": "sweep",          "name": "스위프",      "col":0,"row":1,"requires":["guard_pos"],"effect":{"AGI":4,"counter_bonus":0.10} },
+    "back_take":     { "id": "back_take",      "name": "백 테이크",   "col":1,"row":1,"requires":["sweep"],"effect":{"sub_gauge_rate":0.10} },
+    "rnc":           { "id": "rnc",            "name": "리어 네이키드 초크","col":2,"row":1,"requires":["back_take","triangle"],"effect":{"sub_finish_chance":0.12} },
+    "counter_timing":{ "id": "counter_timing", "name": "카운터 타이밍","col":0,"row":2,"requires":["sweep"],"effect":{"counter_bonus":0.15} },
+    "sub_accel":     { "id": "sub_accel",      "name": "서브미션 가속","col":1,"row":2,"requires":["counter_timing"],"effect":{"sub_gauge_rate":0.15} },
+    "perfect_finish":{ "id": "perfect_finish", "name": "퍼펙트 피니셔","col":2,"row":2,"requires":["sub_accel","rnc"],"effect":{"sub_finish_chance":0.20,"TEC":5} }
+  }
+}

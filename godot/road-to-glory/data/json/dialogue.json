@@ -1,0 +1,992 @@
+{
+  "CH1_DLG_001": {
+    "id": "CH1_DLG_001",
+    "chapter": "Chapter 1",
+    "speaker": "브로커",
+    "portrait": "Broker_Smile",
+    "script": "이해가 안 가는군. 폼도 안 나는 이런 시궁창 싸움판에서 목숨을 거는 이유가 뭐지?",
+    "next_id": "CH1_DLG_002",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_002": {
+    "id": "CH1_DLG_002",
+    "chapter": "Chapter 1",
+    "speaker": "주인공",
+    "portrait": "Player_Bitter",
+    "script": "돈 때문이지 뭐, 별거 있나.",
+    "next_id": "CH1_DLG_003",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_003": {
+    "id": "CH1_DLG_003",
+    "chapter": "Chapter 1",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "맞은 만큼 벌고, 번 만큼 쓴다. 그게 내 전부야.",
+    "next_id": "CH1_DLG_004",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_004": {
+    "id": "CH1_DLG_004",
+    "chapter": "Chapter 1",
+    "speaker": "불량배",
+    "portrait": "Thug_Angry",
+    "script": "혓바닥이 기네! 오늘 네놈 숨통을 끊고 수당은 우리가 챙긴다!!",
+    "next_id": "CH1_DLG_005",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_005": {
+    "id": "CH1_DLG_005",
+    "chapter": "Chapter 1",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "입금이나 제때 해둬. 일할 시간이니.",
+    "next_id": "CH1_DLG_006",
+    "mission_trigger": "MS_CH1_01"
+  },
+  "CH1_DLG_006": {
+    "id": "CH1_DLG_006",
+    "chapter": "Chapter 1",
+    "speaker": "브로커",
+    "portrait": "Broker_Surprise",
+    "script": "역시 대단해. 그 무기 하나 없이 맨주먹으로 세 명을 순식간에 눕히다니.",
+    "next_id": "CH1_DLG_007",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_007": {
+    "id": "CH1_DLG_007",
+    "chapter": "Chapter 1",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "칭찬은 집어치우고 내 몫이나 한 푼도 빠짐없이 계좌로 쏴.",
+    "next_id": "CH1_DLG_008",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_008": {
+    "id": "CH1_DLG_008",
+    "chapter": "Chapter 1",
+    "speaker": "브로커",
+    "portrait": "Broker_Serious",
+    "script": "이런 판돈 몇 푼에 만족하지 마라. 합법적으로 수억을 만질 수 있는 프로 무대에 관심 있나?",
+    "next_id": "CH1_DLG_009",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_009": {
+    "id": "CH1_DLG_009",
+    "chapter": "Chapter 1",
+    "speaker": "주인공",
+    "portrait": "Player_Surprise",
+    "script": "수억이라고...? 합법이든 불법이든 판돈만 크다면 거절할 이유가 없지.",
+    "next_id": "CH1_DLG_010",
+    "mission_trigger": ""
+  },
+  "CH1_DLG_010": {
+    "id": "CH1_DLG_010",
+    "chapter": "Chapter 1",
+    "speaker": "브로커",
+    "portrait": "Broker_Smile",
+    "script": "좋아, 명함 받아라. 강남에 있는 체육관이다. 거기서 진짜 파이터가 되는 거다.",
+    "next_id": "CH2_DLG_001",
+    "mission_trigger": "MS_CH1_02"
+  },
+  "CH2_DLG_001": {
+    "id": "CH2_DLG_001",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Stern",
+    "script": "오늘부터 널 맡게 된 최 관장이다. 뒷골목 버릇은 버려라. 여긴 룰이 존재한다.",
+    "next_id": "CH2_DLG_002",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_002": {
+    "id": "CH2_DLG_002",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "룰이든 뭐든 상관없으니 파이트 머니가 높은 시합이나 빨리 잡아주시죠.",
+    "next_id": "CH2_DLG_003",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_003": {
+    "id": "CH2_DLG_003",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Angry",
+    "script": "하! 건방진 녀석. 프로 라이센스부터 따는 게 순서다. 당장 샌드백부터 쳐라!",
+    "next_id": "CH2_DLG_004",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_004": {
+    "id": "CH2_DLG_004",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "돈이 된다면 샌드백이 아니라 빌딩이라도 부수겠습니다.",
+    "next_id": "CH2_DLG_005",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_005": {
+    "id": "CH2_DLG_005",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Stern",
+    "script": "기본은 되어 있군. 하지만 세미프로 리그는 아마추어들과 차원이 다르다.",
+    "next_id": "CH2_DLG_006",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_006": {
+    "id": "CH2_DLG_006",
+    "chapter": "Chapter 2",
+    "speaker": "스파링 파트너",
+    "portrait": "Partner_Smug",
+    "script": "네가 그 골목대장 출신이냐? 가볍게 몸이나 풀어보자고.",
+    "next_id": "CH2_DLG_007",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_007": {
+    "id": "CH2_DLG_007",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "치료비는 각자 부담하는 걸로 합시다. 덤비세요.",
+    "next_id": "CH2_DLG_008",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_008": {
+    "id": "CH2_DLG_008",
+    "chapter": "Chapter 2",
+    "speaker": "스파링 파트너",
+    "portrait": "Partner_Pain",
+    "script": "컥...! 뭐 이런 괴물이 다 있어... 주먹이 바위 같잖아.",
+    "next_id": "CH2_DLG_009",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_009": {
+    "id": "CH2_DLG_009",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Smile",
+    "script": "좋아, 기본 스파링은 통과다. 바로 다음 주에 세미프로 데뷔전 일정이 잡혔다.",
+    "next_id": "CH2_DLG_010",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_010": {
+    "id": "CH2_DLG_010",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "상대는 누구죠? 이기면 수당은 얼마나 됩니까?",
+    "next_id": "CH2_DLG_011",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_011": {
+    "id": "CH2_DLG_011",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Serious",
+    "script": "상대는 3연승 중인 '랭커 박'. 이번 경기 이기면 정식 프로 계약금 조율이 가능하다.",
+    "next_id": "CH2_DLG_012",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_012": {
+    "id": "CH2_DLG_012",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "계약금 액수만 제대로 보장된다면, 그 랭커 박인지 뭔지 하는 놈을 링 바닥에 박아주죠.",
+    "next_id": "CH2_DLG_013",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_013": {
+    "id": "CH2_DLG_013",
+    "chapter": "Chapter 2",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer",
+    "script": "신인 파이터의 거침없는 질주! 과연 랭커 박을 꺾고 프로로 올라설 것인가!",
+    "next_id": "CH2_DLG_014",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_014": {
+    "id": "CH2_DLG_014",
+    "chapter": "Chapter 2",
+    "speaker": "랭커 박",
+    "portrait": "Enemy_Park",
+    "script": "길거리에서 구르던 개뼈다귀가 올 자리가 아니다. 여기서 밟아주마.",
+    "next_id": "CH2_DLG_015",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_015": {
+    "id": "CH2_DLG_015",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "내 눈엔 네놈 머리 위에 파이트 머니 액수만 떠다닌다. 일로 와라.",
+    "next_id": "CH2_DLG_016",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_016": {
+    "id": "CH2_DLG_016",
+    "chapter": "Chapter 2",
+    "speaker": "랭커 박",
+    "portrait": "Enemy_Park_Pain",
+    "script": "으... 으윽... 말도 안 돼... 이 타이밍에 카운터가...",
+    "next_id": "CH2_DLG_017",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_017": {
+    "id": "CH2_DLG_017",
+    "chapter": "Chapter 2",
+    "speaker": "심판",
+    "portrait": "Referee",
+    "script": "경기 종료! KO! 승자, 대한민국 신예 파이터!!",
+    "next_id": "CH2_DLG_018",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_018": {
+    "id": "CH2_DLG_018",
+    "chapter": "Chapter 2",
+    "speaker": "브로커",
+    "portrait": "Broker_Smile",
+    "script": "거봐, 내 눈은 틀리지 않았지. 축하하네. 정식 프로 라이센스가 발급되었어.",
+    "next_id": "CH2_DLG_019",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_019": {
+    "id": "CH2_DLG_019",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "약속한 프로 계약금 조건은 어떻게 되었지?",
+    "next_id": "CH2_DLG_020",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_020": {
+    "id": "CH2_DLG_020",
+    "chapter": "Chapter 2",
+    "speaker": "브로커",
+    "portrait": "Broker_Serious",
+    "script": "국내 최대 단체 '로드 오브 옥타곤'에서 정식 오퍼가 왔다. 대전료가 이전의 5배야.",
+    "next_id": "CH2_DLG_021",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_021": {
+    "id": "CH2_DLG_021",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "5배라... 이제야 조금 일할 맛이 나는군. 다음 상대는 누구야?",
+    "next_id": "CH2_DLG_022",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_022": {
+    "id": "CH2_DLG_022",
+    "chapter": "Chapter 2",
+    "speaker": "브로커",
+    "portrait": "Broker_Serious",
+    "script": "프로 첫 상대는 주짓수 블랙벨트 출신의 '독사 강'. 그라운드로 끌려가면 답이 없다.",
+    "next_id": "CH2_DLG_023",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_023": {
+    "id": "CH2_DLG_023",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Stern",
+    "script": "그놈의 테이크다운을 방어하지 못하면 프로 무대에서 살아남을 수 없다. 방어 훈련 시작한다.",
+    "next_id": "CH2_DLG_024",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_024": {
+    "id": "CH2_DLG_024",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "누워 싸우든 서서 싸우든, 먼저 때려눕히면 그만입니다. 훈련 강도나 높여주시죠.",
+    "next_id": "CH2_DLG_025",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_025": {
+    "id": "CH2_DLG_025",
+    "chapter": "Chapter 2",
+    "speaker": "독사 강",
+    "portrait": "Enemy_Kang",
+    "script": "내 서브미션에 걸리면 뼈가 부러질 거다. 탭 칠 준비나 해라.",
+    "next_id": "CH2_DLG_026",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_026": {
+    "id": "CH2_DLG_026",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "부러질 뼈가 있다면 부러뜨려 봐. 그전에 네 안면 뼈부터 걱정해야 할 거다.",
+    "next_id": "CH2_DLG_027",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_027": {
+    "id": "CH2_DLG_027",
+    "chapter": "Chapter 2",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer",
+    "script": "독사 강의 서브미션 시도를 완벽한 파운딩으로 분쇄합니다! 완벽한 KO 승리!",
+    "next_id": "CH2_DLG_028",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_028": {
+    "id": "CH2_DLG_028",
+    "chapter": "Chapter 2",
+    "speaker": "관장",
+    "portrait": "Coach_Smile",
+    "script": "엄청난 경기력이었다! 이제 네 이름이 국내 격투기 씬에 제대로 각인되었어.",
+    "next_id": "CH2_DLG_029",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_029": {
+    "id": "CH2_DLG_029",
+    "chapter": "Chapter 2",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "보너스 수당은 제대로 입금되었겠죠? 확인해 봐야겠습니다.",
+    "next_id": "CH2_DLG_030",
+    "mission_trigger": ""
+  },
+  "CH2_DLG_030": {
+    "id": "CH2_DLG_030",
+    "chapter": "Chapter 2",
+    "speaker": "브로커",
+    "portrait": "Broker_Serious",
+    "script": "돈 걱정은 마라. 미국 UFC 스카우터가 방금 내게 연락을 취해왔으니까.",
+    "next_id": "CH3_DLG_001",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_001": {
+    "id": "CH3_DLG_001",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Sharp",
+    "script": "웰컴 투 라스베이거스. 드디어 세계 최고의 무대 UFC에 입성한 것을 환영하네.",
+    "next_id": "CH3_DLG_002",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_002": {
+    "id": "CH3_DLG_002",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "환영 인사는 됐고, 달러로 지급되는 파이트 머니 계약서나 보여주시죠.",
+    "next_id": "CH3_DLG_003",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_003": {
+    "id": "CH3_DLG_003",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Laugh",
+    "script": "하하, 아주 솔직해서 좋군. 기본 대전료에 승리 수당, 그리고 '퍼포먼스 오브 더 나이트' 보너스까지 있네.",
+    "next_id": "CH3_DLG_004",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_004": {
+    "id": "CH3_DLG_004",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "보너스라... 관중들이 화끈한 타격전을 좋아한다면, 매 경기 기절시켜 드리겠습니다.",
+    "next_id": "CH3_DLG_005",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_005": {
+    "id": "CH3_DLG_005",
+    "chapter": "Chapter 3",
+    "speaker": "코치",
+    "portrait": "US_Coach",
+    "script": "여긴 미국이다. 데뷔전 상대는 레슬링 강자 '밀러'. 철저히 아웃복싱으로 가야 해.",
+    "next_id": "CH3_DLG_006",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_006": {
+    "id": "CH3_DLG_006",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "내 사전에 도망치는 복싱은 없습니다. 정면으로 받아서 턱을 돌려놓겠습니다.",
+    "next_id": "CH3_DLG_007",
+    "mission_trigger": "MS_CH3_01"
+  },
+  "CH3_DLG_007": {
+    "id": "CH3_DLG_007",
+    "chapter": "Chapter 3",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "UFC 데뷔전을 단 1라운드 45초 만에 하이킥으로 끝내버리는 신인 파이터!!",
+    "next_id": "CH3_DLG_008",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_008": {
+    "id": "CH3_DLG_008",
+    "chapter": "Chapter 3",
+    "speaker": "관중들",
+    "portrait": "Crowd",
+    "script": "와아아아!! 대단한 타격이다! 새로운 스타가 탄생했다!",
+    "next_id": "CH3_DLG_009",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_009": {
+    "id": "CH3_DLG_009",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Sharp",
+    "script": "엄청나군! 화끈한 경기 덕분에 보너스 5만 달러가 바로 지급될 걸세.",
+    "next_id": "CH3_DLG_010",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_010": {
+    "id": "CH3_DLG_010",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "5만 달러... 아주 마음에 드는 동네군요, 여기. 다음 시합은 언제입니까?",
+    "next_id": "CH3_DLG_011",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_011": {
+    "id": "CH3_DLG_011",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Serious",
+    "script": "다음은 랭킹 15위 '실바'다. 여기서 이겨야 정식으로 랭킹 진입이 가능해.",
+    "next_id": "CH3_DLG_012",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_012": {
+    "id": "CH3_DLG_012",
+    "chapter": "Chapter 3",
+    "speaker": "실바",
+    "portrait": "Enemy_Silva",
+    "script": "길거리 싸움꾼 수준의 타격은 내 정교한 카운터에 무너질 거다. 웰컴 투 UFC다, 애송이.",
+    "next_id": "CH3_DLG_013",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_013": {
+    "id": "CH3_DLG_013",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "네놈을 밟고 올라가면 내 몸값이 배로 뛴다. 얌전히 내 돈줄이 되어라.",
+    "next_id": "CH3_DLG_014",
+    "mission_trigger": "MS_CH3_02"
+  },
+  "CH3_DLG_014": {
+    "id": "CH3_DLG_014",
+    "chapter": "Chapter 3",
+    "speaker": "심판",
+    "portrait": "Referee_US",
+    "script": "스톱! 스톱! 경기 종료! 승자, KO로 대한민국 파이터!",
+    "next_id": "CH3_DLG_015",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_015": {
+    "id": "CH3_DLG_015",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "랭킹 15위 달성. 다음 타겟은 누구지? 돈 냄새가 점점 짙어지는군.",
+    "next_id": "CH3_DLG_016",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_016": {
+    "id": "CH3_DLG_016",
+    "chapter": "Chapter 3",
+    "speaker": "관장",
+    "portrait": "Coach_Stern",
+    "script": "기뻐하긴 이르다. 랭킹 10위권 내 괴물들은 차원이 달라. 특히 다음 상대는 무에타이 챔피언 출신 '솜삭'이다.",
+    "next_id": "CH3_DLG_017",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_017": {
+    "id": "CH3_DLG_017",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "킥이 매섭다면 킥이 나오기 전에 거리를 좁혀 안면을 부수면 됩니다. 훈련 들어갑니다.",
+    "next_id": "CH3_DLG_018",
+    "mission_trigger": "MS_CH3_03"
+  },
+  "CH3_DLG_018": {
+    "id": "CH3_DLG_018",
+    "chapter": "Chapter 3",
+    "speaker": "솜삭",
+    "portrait": "Enemy_Somsak",
+    "script": "내 레그킥에 네 다리가 버틸 수 있을까? 3라운드 내내 기어 다니게 해주지.",
+    "next_id": "CH3_DLG_019",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_019": {
+    "id": "CH3_DLG_019",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "기어 다니는 건 네놈이 될 거다. 파이트 머니 입금 확인했으니, 시작하자고.",
+    "next_id": "CH3_DLG_020",
+    "mission_trigger": "MS_CH3_04"
+  },
+  "CH3_DLG_020": {
+    "id": "CH3_DLG_020",
+    "chapter": "Chapter 3",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "치열한 진흙탕 싸움 끝에 솜삭을 니킥으로 침몰시킵니다! 무패 행진!!",
+    "next_id": "CH3_DLG_021",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_021": {
+    "id": "CH3_DLG_021",
+    "chapter": "Chapter 3",
+    "speaker": "브로커",
+    "portrait": "Broker_Smile",
+    "script": "벌써 랭킹 7위야! 메인 스폰서 제안들이 쏟아지고 있어. 스포츠카 한 대 뽑겠는데?",
+    "next_id": "CH3_DLG_022",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_022": {
+    "id": "CH3_DLG_022",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "스폰서 금액은 무조건 선불로 받도록 해줘. 돈은 거짓말을 안 하니까.",
+    "next_id": "CH3_DLG_023",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_023": {
+    "id": "CH3_DLG_023",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Serious",
+    "script": "큰 건이 잡혔네. 랭킹 3위이자 전 챔피언인 '존슨'. 이 경기에서 이기면 바로 타이틀 매치 직행일세.",
+    "next_id": "CH3_DLG_024",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_024": {
+    "id": "CH3_DLG_024",
+    "chapter": "Chapter 3",
+    "speaker": "존슨",
+    "portrait": "Enemy_Johnson",
+    "script": "네 경기를 봤다. 화끈하긴 하지만 허점이 너무 많아. 진짜 탑클래스의 벽을 보여주마.",
+    "next_id": "CH3_DLG_025",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_025": {
+    "id": "CH3_DLG_025",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "벽이 보이면 주먹으로 부수면 그만이야. 네놈을 잡고 챔피언 벨트와 천문학적인 돈을 거머쥐겠다.",
+    "next_id": "CH3_DLG_026",
+    "mission_trigger": "MS_CH3_05"
+  },
+  "CH3_DLG_026": {
+    "id": "CH3_DLG_026",
+    "chapter": "Chapter 3",
+    "speaker": "존슨",
+    "portrait": "Enemy_Johnson",
+    "script": "과연 말대로 될지 옥타곤에서 증명해 봐라. 네 커리어는 여기서 끝이다.",
+    "next_id": "CH3_DLG_027",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_027": {
+    "id": "CH3_DLG_027",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "말이 너무 많군. 내 주먹은 말보다 빠르다.",
+    "next_id": "CH3_DLG_028",
+    "mission_trigger": "MS_CH3_06"
+  },
+  "CH3_DLG_028": {
+    "id": "CH3_DLG_028",
+    "chapter": "Chapter 3",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "존슨의 끈질긴 레슬링 압박을 견뎌내고 3라운드 극적인 어퍼컷 KO!!",
+    "next_id": "CH3_DLG_029",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_029": {
+    "id": "CH3_DLG_029",
+    "chapter": "Chapter 3",
+    "speaker": "관중들",
+    "portrait": "Crowd",
+    "script": "오 마이 갓!! 역대급 명경기다! 타이틀 매치로 가라!!",
+    "next_id": "CH3_DLG_030",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_030": {
+    "id": "CH3_DLG_030",
+    "chapter": "Chapter 3",
+    "speaker": "관장",
+    "portrait": "Coach_Smile",
+    "script": "해냈구나! 전 챔피언을 잡았어! 드디어 다음 경기는 대망의 UFC 타이틀 매치다!",
+    "next_id": "CH3_DLG_031",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_031": {
+    "id": "CH3_DLG_031",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "챔피언 벨트라... 그걸 매면 한 경기당 대전료가 얼마나 뛰는 겁니까?",
+    "next_id": "CH3_DLG_032",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_032": {
+    "id": "CH3_DLG_032",
+    "chapter": "Chapter 3",
+    "speaker": "브로커",
+    "portrait": "Broker_Smile",
+    "script": "PPV(페이퍼뷰) 수당까지 합치면 상상도 못 할 금액이지. 대대손손 먹고살 돈이야.",
+    "next_id": "CH3_DLG_033",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_033": {
+    "id": "CH3_DLG_033",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "완벽하군요. 시궁창 뒷골목에서 여기까지 온 보람이 드디어 눈앞에 있네요.",
+    "next_id": "CH3_DLG_034",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_034": {
+    "id": "CH3_DLG_034",
+    "chapter": "Chapter 3",
+    "speaker": "관장",
+    "portrait": "Coach_Serious",
+    "script": "하지만 현 챔피언 '가르시아'는 무패의 폭군이다. 타격, 그라운드, 체력 모든 게 완벽한 인류 최강이야.",
+    "next_id": "CH3_DLG_035",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_035": {
+    "id": "CH3_DLG_035",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "인류 최강이든 신이든 상관없습니다. 내 주먹에 맞으면 똑같이 피를 흘릴 테니까요.",
+    "next_id": "CH3_DLG_036",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_036": {
+    "id": "CH3_DLG_036",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Serious",
+    "script": "기자회견 일정이 잡혔네. 가르시아의 트래시 토크가 매서우니 멘탈 관리에 신경 쓰게.",
+    "next_id": "CH3_DLG_037",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_037": {
+    "id": "CH3_DLG_037",
+    "chapter": "Chapter 3",
+    "speaker": "기자",
+    "portrait": "Reporter",
+    "script": "현 챔피언 가르시아를 상대로 어떤 전략을 준비하셨습니까?",
+    "next_id": "CH3_DLG_038",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_038": {
+    "id": "CH3_DLG_038",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "전략은 단순합니다. 얼굴을 때린다. 쓰러질 때까지 때린다. 그게 전부입니다.",
+    "next_id": "CH3_DLG_039",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_039": {
+    "id": "CH3_DLG_039",
+    "chapter": "Chapter 3",
+    "speaker": "챔피언 가르시아",
+    "portrait": "Garcia_Smug",
+    "script": "하하! 길거리 싸움꾼 녀석이 운 좋게 여기까지 올라왔군. 네 동화 같은 스토리는 내가 옥타곤에서 찢어발겨 주마.",
+    "next_id": "CH3_DLG_040",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_040": {
+    "id": "CH3_DLG_040",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "네놈이 찬 벨트, 아주 비싸 보이더군. 내 돈을 보관해 줘서 고맙다. 곧 찾으러 갈 테니.",
+    "next_id": "CH3_DLG_041",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_041": {
+    "id": "CH3_DLG_041",
+    "chapter": "Chapter 3",
+    "speaker": "챔피언 가르시아",
+    "portrait": "Garcia_Angry",
+    "script": "눈빛은 마음에 드는군. 옥타곤에서 목숨이나 구걸하지 마라.",
+    "next_id": "CH3_DLG_042",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_042": {
+    "id": "CH3_DLG_042",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "목숨 대신 네놈 챔피언 벨트나 잘 닦아두고 있어라.",
+    "next_id": "CH3_DLG_043",
+    "mission_trigger": "MS_CH3_07"
+  },
+  "CH3_DLG_043": {
+    "id": "CH3_DLG_043",
+    "chapter": "Chapter 3",
+    "speaker": "관장",
+    "portrait": "Coach_Serious",
+    "script": "가르시아의 정밀한 카운터 분석이 끝났다. 무리하게 들어가지 말고 타이밍을 빼앗아야 해.",
+    "next_id": "CH3_DLG_044",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_044": {
+    "id": "CH3_DLG_044",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "알고 있습니다. 저도 무작정 주먹만 내지르는 바보는 아니니까요. 마지막 지옥 훈련 가시죠.",
+    "next_id": "CH3_DLG_045",
+    "mission_trigger": "MS_CH3_08"
+  },
+  "CH3_DLG_045": {
+    "id": "CH3_DLG_045",
+    "chapter": "Chapter 3",
+    "speaker": "브로커",
+    "portrait": "Broker_Serious",
+    "script": "미국 전역의 도박사들이 가르시아의 승리를 점치고 있어. 배당률이 장난이 아니야.",
+    "next_id": "CH3_DLG_046",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_046": {
+    "id": "CH3_DLG_046",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "그럼 내 승리에 전 재산을 걸어둬. 역전극이 벌어지면 배로 벌어들일 수 있잖아.",
+    "next_id": "CH3_DLG_047",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_047": {
+    "id": "CH3_DLG_047",
+    "chapter": "Chapter 3",
+    "speaker": "브로커",
+    "portrait": "Broker_Surprise",
+    "script": "정말 미친 녀석이군... 좋아, 네 주먹에 내 커리어와 전 재산을 걸지.",
+    "next_id": "CH3_DLG_048",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_048": {
+    "id": "CH3_DLG_048",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "후회하지 않게 해드리지. 결전의 날이 밝았군.",
+    "next_id": "CH3_DLG_049",
+    "mission_trigger": "MS_CH3_09"
+  },
+  "CH3_DLG_049": {
+    "id": "CH3_DLG_049",
+    "chapter": "Chapter 3",
+    "speaker": "UFC 에이전트",
+    "portrait": "Agent_Sharp",
+    "script": "모든 준비는 끝났네. 전 세계 유료 시청자 수가 역대 최고치를 돌파했어. 엄청난 밤이 될 걸세.",
+    "next_id": "CH3_DLG_050",
+    "mission_trigger": ""
+  },
+  "CH3_DLG_050": {
+    "id": "CH3_DLG_050",
+    "chapter": "Chapter 3",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "가장 화려한 무대에서, 내 인생 최고의 일당을 벌어보도록 하죠.",
+    "next_id": "CH4_DLG_001",
+    "mission_trigger": "MS_CH3_10"
+  },
+  "CH4_DLG_001": {
+    "id": "CH4_DLG_001",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "드디어 시작됩니다! 전 세계 격투기 팬들이 기다려온 메인 이벤트! UFC 웨터급 타이틀 매치!!",
+    "next_id": "CH4_DLG_002",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_002": {
+    "id": "CH4_DLG_002",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "도전자, 대한민국 뒷골목에서 올라온 무패의 신성 파이터 등장!!",
+    "next_id": "CH4_DLG_003",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_003": {
+    "id": "CH4_DLG_003",
+    "chapter": "Chapter 4",
+    "speaker": "관중들",
+    "portrait": "Crowd",
+    "script": "와아아아!! 대한민국!! 대한민국!!",
+    "next_id": "CH4_DLG_004",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_004": {
+    "id": "CH4_DLG_004",
+    "chapter": "Chapter 4",
+    "speaker": "챔피언 가르시아",
+    "portrait": "Garcia_Serious",
+    "script": "이 자리가 어떤 무게인지 뼈저리게 느끼게 해주마. 이리와라.",
+    "next_id": "CH4_DLG_005",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_005": {
+    "id": "CH4_DLG_005",
+    "chapter": "Chapter 4",
+    "speaker": "주인공",
+    "portrait": "Player_Normal",
+    "script": "길고 긴 싸움의 끝이군. 벨트와 돈, 전부 챙겨가겠다.",
+    "next_id": "CH4_DLG_006",
+    "mission_trigger": "MS_CH4_01"
+  },
+  "CH4_DLG_006": {
+    "id": "CH4_DLG_006",
+    "chapter": "Chapter 4",
+    "speaker": "심판",
+    "portrait": "Referee_US",
+    "script": "파이트!!",
+    "next_id": "CH4_DLG_007",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_007": {
+    "id": "CH4_DLG_007",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "1라운드 시작하자마자 엄청난 난타전이 벌어집니다! 양 선수 물러서지 않습니다!",
+    "next_id": "CH4_DLG_008",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_008": {
+    "id": "CH4_DLG_008",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "챔피언 가르시아의 강력한 레프트 훅! 도전자 흔들립니다!",
+    "next_id": "CH4_DLG_009",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_009": {
+    "id": "CH4_DLG_009",
+    "chapter": "Chapter 4",
+    "speaker": "주인공",
+    "portrait": "Player_Pain",
+    "script": "큭... 제법 묵직하군. 하지만 이 정도로 내 주먹이 멈출 것 같냐!",
+    "next_id": "CH4_DLG_010",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_010": {
+    "id": "CH4_DLG_010",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "도전자, 가르시아의 압박을 벗어나며 완벽한 오른손 카운터 플라잉 니킥!!",
+    "next_id": "CH4_DLG_011",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_011": {
+    "id": "CH4_DLG_011",
+    "chapter": "Chapter 4",
+    "speaker": "챔피언 가르시아",
+    "portrait": "Garcia_Pain",
+    "script": "크흑... 으아아악!",
+    "next_id": "CH4_DLG_012",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_012": {
+    "id": "CH4_DLG_012",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "들어갔습니다! 가르시아 쓰러집니다! 파운딩 연타!!",
+    "next_id": "CH4_DLG_013",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_013": {
+    "id": "CH4_DLG_013",
+    "chapter": "Chapter 4",
+    "speaker": "심판",
+    "portrait": "Referee_US",
+    "script": "스톱!! 경기 종료!! 새로운 챔피언 탄생!!",
+    "next_id": "CH4_DLG_014",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_014": {
+    "id": "CH4_DLG_014",
+    "chapter": "Chapter 4",
+    "speaker": "장내 아나운서",
+    "portrait": "Announcer_US",
+    "script": "뒷골목의 기적이 일어났습니다! 새로운 UFC 세계 웰터급 챔피언!!",
+    "next_id": "CH4_DLG_015",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_015": {
+    "id": "CH4_DLG_015",
+    "chapter": "Chapter 4",
+    "speaker": "관장",
+    "portrait": "Coach_Cry",
+    "script": "해냈어! 네가 해냈다고! 세계 최고다!",
+    "next_id": "CH4_DLG_016",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_016": {
+    "id": "CH4_DLG_016",
+    "chapter": "Chapter 4",
+    "speaker": "브로커",
+    "portrait": "Broker_Laugh",
+    "script": "믿고 있었다고, 이 미친 주먹아! 우리가 전 세계를 제패했다!",
+    "next_id": "CH4_DLG_017",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_017": {
+    "id": "CH4_DLG_017",
+    "chapter": "Chapter 4",
+    "speaker": "기자",
+    "portrait": "Reporter",
+    "script": "새로운 챔피언! 밑바닥 뒷골목에서 시작해 세계 최고가 되기까지 당신을 버티게 한 원동력은 무엇입니까?",
+    "next_id": "CH4_DLG_018",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_018": {
+    "id": "CH4_DLG_018",
+    "chapter": "Chapter 4",
+    "speaker": "주인공",
+    "portrait": "Player_Smile",
+    "script": "음... 다들 거창한 걸 기대하겠지만, 제 대답은 처음부터 똑같습니다.",
+    "next_id": "CH4_DLG_019",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_019": {
+    "id": "CH4_DLG_019",
+    "chapter": "Chapter 4",
+    "speaker": "주인공",
+    "portrait": "Player_Smile",
+    "script": "돈 때문이지 뭐, 별거 있습니까?",
+    "next_id": "CH4_DLG_020",
+    "mission_trigger": ""
+  },
+  "CH4_DLG_020": {
+    "id": "CH4_DLG_020",
+    "chapter": "Chapter 4",
+    "speaker": "주인공",
+    "portrait": "Player_Champion",
+    "script": "일 끝났으니 퇴근합니다. 입금 확인이나 하러 가야겠네요.",
+    "next_id": "END_CREDITS",
+    "mission_trigger": "Show_Credits"
+  }
+}

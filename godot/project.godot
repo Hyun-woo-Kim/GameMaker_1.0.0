@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but the format is documented just in case:
+; https://docs.godotengine.org/en/stable/classes/class_projectsettings.html
+
+config_version=5
+
+[application]
+
+config/name="Road to Glory"
+config/description="MMA 격투가 육성 시뮬레이션 RPG"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://assets/ui/icon.png"
+
+[autoload]
+
+GameData="*res://scripts/autoloads/GameData.gd"
+GameState="*res://scripts/autoloads/GameState.gd"
+Config="*res://scripts/autoloads/Config.gd"
+SaveManager="*res://scripts/autoloads/SaveManager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"

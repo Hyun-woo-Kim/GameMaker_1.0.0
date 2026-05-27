@@ -1,0 +1,35 @@
+{
+  "boxer": {
+    "STR": 10,
+    "AGI": 14,
+    "STA": 10,
+    "TEC": 10,
+    "HP":  100,
+    "job_mult": 1.0,
+    "special": "combo_counter",
+    "advantage_over": "jiu_jitsu",
+    "disadvantage_to": "wrestler"
+  },
+  "wrestler": {
+    "STR": 14,
+    "AGI": 8,
+    "STA": 12,
+    "TEC": 8,
+    "HP":  120,
+    "job_mult": 1.1,
+    "special": "takedown",
+    "advantage_over": "boxer",
+    "disadvantage_to": "jiu_jitsu"
+  },
+  "jiu_jitsu": {
+    "STR": 10,
+    "AGI": 10,
+    "STA": 14,
+    "TEC": 14,
+    "HP":  90,
+    "job_mult": 0.9,
+    "special": "submission_gauge",
+    "advantage_over": "wrestler",
+    "disadvantage_to": "boxer"
+  }
+}

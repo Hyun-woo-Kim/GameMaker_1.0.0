@@ -1,0 +1,140 @@
+[gd_scene load_steps=2 format=3 uid="uid://char_select"]
+
+[ext_resource type="Script" path="res://scripts/scenes/character_select.gd" id="1_cs"]
+
+[node name="CharacterSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_cs")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.05, 0.05, 0.1, 1)
+
+[node name="TitleLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -300.0
+offset_top = 40.0
+offset_right = 300.0
+offset_bottom = 90.0
+text = "격투 스타일을 선택하세요"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 32
+
+[node name="ClassContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -200.0
+offset_right = 480.0
+offset_bottom = 200.0
+alignment = 1
+theme_override_constants/separation = 30
+
+[node name="BoxerCard" type="PanelContainer" parent="ClassContainer"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 400)
+name = "BoxerCard"
+
+[node name="VBox" type="VBoxContainer" parent="ClassContainer/BoxerCard"]
+layout_mode = 2
+
+[node name="ClassSprite" type="ColorRect" parent="ClassContainer/BoxerCard/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 200)
+color = Color(0.8, 0.2, 0.2, 1)
+
+[node name="ClassName" type="Label" parent="ClassContainer/BoxerCard/VBox"]
+layout_mode = 2
+text = "복서"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 28
+
+[node name="ClassDesc" type="Label" parent="ClassContainer/BoxerCard/VBox"]
+layout_mode = 2
+text = "빠른 타격\n주짓떼로에 유리\n레슬러에 불리"
+horizontal_alignment = 1
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 16
+
+[node name="BtnSelect" type="Button" parent="ClassContainer/BoxerCard/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 50)
+text = "선택"
+name = "BtnSelect"
+
+[node name="WrestlerCard" type="PanelContainer" parent="ClassContainer"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 400)
+name = "WrestlerCard"
+
+[node name="VBox" type="VBoxContainer" parent="ClassContainer/WrestlerCard"]
+layout_mode = 2
+
+[node name="ClassSprite" type="ColorRect" parent="ClassContainer/WrestlerCard/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 200)
+color = Color(0.2, 0.4, 0.8, 1)
+
+[node name="ClassName" type="Label" parent="ClassContainer/WrestlerCard/VBox"]
+layout_mode = 2
+text = "레슬러"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 28
+
+[node name="ClassDesc" type="Label" parent="ClassContainer/WrestlerCard/VBox"]
+layout_mode = 2
+text = "압도적 힘\n복서에 유리\n주짓떼로에 불리"
+horizontal_alignment = 1
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 16
+
+[node name="BtnSelect" type="Button" parent="ClassContainer/WrestlerCard/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 50)
+text = "선택"
+name = "BtnSelect"
+
+[node name="JiuJitsuCard" type="PanelContainer" parent="ClassContainer"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 400)
+name = "JiuJitsuCard"
+
+[node name="VBox" type="VBoxContainer" parent="ClassContainer/JiuJitsuCard"]
+layout_mode = 2
+
+[node name="ClassSprite" type="ColorRect" parent="ClassContainer/JiuJitsuCard/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(280, 200)
+color = Color(0.2, 0.7, 0.3, 1)
+
+[node name="ClassName" type="Label" parent="ClassContainer/JiuJitsuCard/VBox"]
+layout_mode = 2
+text = "주짓떼로"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 28
+
+[node name="ClassDesc" type="Label" parent="ClassContainer/JiuJitsuCard/VBox"]
+layout_mode = 2
+text = "서브미션 특화\n레슬러에 유리\n복서에 불리"
+horizontal_alignment = 1
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 16
+
+[node name="BtnSelect" type="Button" parent="ClassContainer/JiuJitsuCard/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 50)
+text = "선택"
+name = "BtnSelect"
